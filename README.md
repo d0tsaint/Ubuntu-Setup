@@ -1,5 +1,7 @@
 # Ubuntu Setup
 
+``sudo apt update && sudo apt upgrade -y``
+
 ### Install: 
 - virtualbox ``sudo apt install virtualbox`` *Remember to add to "Secure Boot" if enabled*
 - neovim ``sudo apt install neovim``
