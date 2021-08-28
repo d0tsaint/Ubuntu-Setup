@@ -12,7 +12,7 @@ ___
 
 gnome-extensions ``sudo apt install gnome-shell-extensions``
 https://extensions.gnome.org/
-- ``Caffeine`` Quick Disable Sleep
+- ``Caffeine`` Quick-Disable Sleep
 - ``Clipboard Indicator`` Show Clipboard History
 - ``Disable Workspace Switcher Popup`` Disable Workspace Popup
 - ``Hide Activities Button`` Hide Activities Button
