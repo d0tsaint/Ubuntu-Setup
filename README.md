@@ -3,15 +3,14 @@ Download and run the script from the homefolder.
 ___
 
 ### Extensions
-gnome-extensions ``sudo apt install gnome-shell-extensions``
 https://extensions.gnome.org/
+- ``Just Perfection`` Customize the Gnome look
+- ``Simply Workspaces`` Workspace Indicator
+- ``Blur my Shell`` Blur effect
 - ``Caffeine`` Quick-Disable Sleep
 - ``Clipboard Indicator`` Show Clipboard History
-- ``Disable Workspace Switcher Popup`` Disable Workspace Popup
-- ``Hide Activities Button`` Hide Activities Button
 - ``Open Weather`` Weather Applet
 - ``Panel OSD`` Change Notification Popup Screen Placement
-- ``Simply Workspaces`` Workspace Indicator
 - ``Virtualbox Applet`` Virtualbox Shortcut
 ___
 
