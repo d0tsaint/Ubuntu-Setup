@@ -5,8 +5,11 @@ ___
 ### Extensions
 https://extensions.gnome.org/
 - ``Just Perfection`` Customize the Gnome look
+https://extensions.gnome.org/extension/3843/just-perfection/
 - ``Simply Workspaces`` Workspace Indicator
+https://extensions.gnome.org/extension/4343/simply-workspaces/
 - ``Blur my Shell`` Blur effect
+https://extensions.gnome.org/extension/3193/blur-my-shell/
 - ``Caffeine`` Quick-Disable Sleep
 - ``Clipboard Indicator`` Show Clipboard History
 - ``Open Weather`` Weather Applet
