@@ -13,14 +13,14 @@ gsettings set org.gnome.shell enabled-extensions "['pop-shell@system76.com', 'us
 gsettings set org.gnome.shell disabled-extensions "['ubuntu-dock@ubuntu.com']"
 
 mkdir .icons
-wget https://github.com/whyd0t/Ubuntu-Setup/blob/main/Dependencies/Inverse-black.tar.xz
+wget https://raw.githubusercontent.com/whyd0t/Ubuntu-Setup/main/Dependencies/Inverse-black.tar.xz
 tar -xf Inverse-black.tar.xz
 rm Inverse-black.tar.xz && rm -rf Inverse-black-dark
 mv Inverse-black .icons/
 gsettings set org.gnome.desktop.interface icon-theme 'Inverse-black'
 
 mkdir .themes
-wget https://github.com/whyd0t/Ubuntu-Setup/blob/main/Dependencies/Juno-palenight-v40.tar.xz
+wget https://raw.githubusercontent.com/whyd0t/Ubuntu-Setup/main/Dependencies/Juno-palenight-v40.tar.xz
 tar -xf Juno-palenight-v40.tar.xz 
 rm Juno-palenight-v40.tar.xz
 mv Juno-palenight-v40 .themes/
