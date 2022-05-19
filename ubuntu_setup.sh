@@ -62,7 +62,7 @@ sudo apt-get update
 sudo apt-get install sublime-text virt-manager docker.io wireshark torbrowser-launcher vlc htop terminator -y
 
 mkdir ~/.config/terminator
-cat << OEF > ~/.config/terminator
+cat << OEF > ~/.config/terminator/config
 [global_config]
   title_transmit_fg_color = "#2E3440"
   title_transmit_bg_color = "#88C0D0"
@@ -105,22 +105,6 @@ Name=Cutter
 Comment=Cutter Reverse Engineering Toolkit
 Exec=/home/$u/apps/Cutter-v2.0.5-x64.Linux.AppImage
 Icon=/home/$u/apps/app-icons/cutter-small.svg
-Terminal=false
-Type=Application
-Categories=Development
-OEF
-
-wget https://github.com/marktext/marktext/releases/download/v0.16.3/marktext-x86_64.AppImage
-chmod +x marktext-x86_64.AppImage
-mv marktext-x86_64.AppImage apps
-wget https://raw.githubusercontent.com/marktext/marktext/develop/static/logo-small.png
-mv logo-small.png apps/app-icons/marktext-small.png
-cat << OEF > ~/.local/share/applications/marktext.desktop
-[Desktop Entry]
-Name=MarkText
-Comment=MarkText Markdown editor
-Exec=/home/$u/apps/marktext-x86_64.AppImage
-Icon=/home/$u/apps/app-icons/marktext-small.png
 Terminal=false
 Type=Application
 Categories=Development
